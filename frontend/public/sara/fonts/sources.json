@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "path": "public/sara/fonts/ArchiveGaramondPro-Italic.ttf",
+      "source": "User-provided project-root ArchiveGaramondPro-Italic.ttf",
+      "sha256": "2b3a0867050eeb6744594ec893f3b6e79c3528ffa792223bb48f9921d767ce9c",
+      "family": "Archive Garamond Pro",
+      "subfamily": "Italic",
+      "embeddedLicense": null
+    },
+    {
+      "path": "public/coral-story/fonts/notosansdevanagari/NotoSansDevanagari[wdth,wght].ttf",
+      "source": "Shared local OFL font; see public/coral-story/fonts/sources.json",
+      "license": "public/coral-story/fonts/notosansdevanagari/OFL.txt"
+    }
+  ]
+}

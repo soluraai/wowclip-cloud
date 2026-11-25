@@ -1,0 +1,151 @@
+{
+  "commit": "47d54ca1ebb14fd864695f1d39dc734f39017c33",
+  "files": [
+    {
+      "path": "public/launch-caption-pack/fonts/poppins/Poppins-SemiBold.ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/poppins/Poppins-SemiBold.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "d3bf1bdaf0550e83da9ac0b1d1d9fe6db086835a83aa28578e609a394b9a0286",
+      "bytes": 157312
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/poppins/Poppins-ExtraBold.ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/poppins/Poppins-ExtraBold.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "f2ab17c1a63a0ecc12c2461848fc8a469395e3cd2d641803e889c643d9f958e1",
+      "bytes": 154836
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/poppins/OFL.txt",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/poppins/OFL.txt?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573",
+      "bytes": 4385
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/inter/Inter[opsz,wght].ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "bytes": 876576
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/inter/OFL.txt",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/inter/OFL.txt?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "bytes": 4377
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/anton/Anton-Regular.ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/anton/Anton-Regular.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab",
+      "bytes": 170812
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/anton/OFL.txt",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/anton/OFL.txt?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "bytes": 4484
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/playfairdisplay/PlayfairDisplay[wght].ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+      "bytes": 300724
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/playfairdisplay/PlayfairDisplay-Italic[wght].ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/playfairdisplay/PlayfairDisplay-Italic%5Bwght%5D.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b",
+      "bytes": 278688
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/playfairdisplay/OFL.txt",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/playfairdisplay/OFL.txt?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+      "bytes": 4449
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/spacegrotesk/SpaceGrotesk[wght].ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/spacegrotesk/SpaceGrotesk%5Bwght%5D.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+      "bytes": 136676
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/spacegrotesk/OFL.txt",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/spacegrotesk/OFL.txt?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "bytes": 4495
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/newsreader/Newsreader[opsz,wght].ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/newsreader/Newsreader%5Bopsz%2Cwght%5D.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "bytes": 451664
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/newsreader/OFL.txt",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/newsreader/OFL.txt?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+      "bytes": 4394
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/montserrat/Montserrat[wght].ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/montserrat/Montserrat%5Bwght%5D.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7",
+      "bytes": 744936
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/montserrat/OFL.txt",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/montserrat/OFL.txt?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+      "bytes": 4400
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/notoserifdevanagari/NotoSerifDevanagari[wdth,wght].ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/notoserifdevanagari/NotoSerifDevanagari%5Bwdth%2Cwght%5D.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "1191e07bfeb062d80e252eb85b0eafdfbda1e350707a2a60628668e8f677dbbb",
+      "bytes": 757692
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/notoserifdevanagari/OFL.txt",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/notoserifdevanagari/OFL.txt?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+      "bytes": 4386
+    }
+  ],
+  "legacy": [
+    {
+      "path": "public/launch-caption-pack/fonts/legacy/instrument-sans-variable.ttf",
+      "sha256": "b24f1812584816958afcf22e22d08e44318c5e51651e25d2438efdde389b33b1",
+      "bytes": 194336,
+      "origin": "Copied unchanged from existing project font assets; corresponding family OFL included."
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/legacy/InstrumentSans-OFL.txt",
+      "sha256": "9e27a72ed30eb49a08678f6a5d6ed98ec7ba5368f541637ee0683ec9134ef966",
+      "bytes": 4403,
+      "origin": "Copied unchanged from existing project font assets; corresponding family OFL included."
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/legacy/Inter-700-normal.ttf",
+      "sha256": "dade87517dbbb15f46a6ca7f5414a50859e1742824b9425a1ce9ad77d263f639",
+      "bytes": 66784,
+      "origin": "Copied unchanged from existing project font assets; corresponding family OFL included."
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/legacy/Inter-OFL.txt",
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "bytes": 4377,
+      "origin": "Copied unchanged from existing project font assets; corresponding family OFL included."
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/legacy/poppins-black.ttf",
+      "sha256": "d82aaaf98a9283f9a8edd24e51173337d8eaf09e25cd3d98831f8ec8461748a1",
+      "bytes": 153440,
+      "origin": "Copied unchanged from existing project font assets; corresponding family OFL included."
+    },
+    {
+      "path": "public/launch-caption-pack/fonts/legacy/Poppins-OFL.txt",
+      "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573",
+      "bytes": 4385,
+      "origin": "Copied unchanged from existing project font assets; corresponding family OFL included."
+    }
+  ]
+}

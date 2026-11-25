@@ -1,0 +1,29 @@
+{
+  "width": 806,
+  "height": 793,
+  "removedBackground": false,
+  "alreadyTransparent": true,
+  "model": null,
+  "normalizationVersion": "subject-fit-v3",
+  "contentBounds": {
+    "x": 1,
+    "y": 1,
+    "width": 804,
+    "height": 791
+  },
+  "sourceSubjectBounds": [
+    89,
+    95,
+    893,
+    886
+  ],
+  "sourceCoreBounds": [
+    91,
+    97,
+    891,
+    884
+  ],
+  "sourceWidth": 980,
+  "sourceHeight": 980,
+  "removedEffectPixels": 50286
+}

@@ -1,0 +1,196 @@
+.canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+}
+.box {
+  position: absolute;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  cursor: move;
+  outline: none;
+  pointer-events: auto;
+  touch-action: none;
+  user-select: none;
+  transition: border-color 120ms ease;
+}
+.box:hover {
+  border-color: #ffffffb3;
+}
+/* Handles show as soon as the pointer is on the caption, so it can be resized without a first click. */
+.box .corner,
+.box .side,
+.box .rotate {
+  opacity: 0;
+  transition: opacity 100ms ease;
+}
+.box:hover .corner,
+.box:hover .side,
+.box:hover .rotate,
+.box[data-selected="true"] .corner,
+.box[data-selected="true"] .side,
+.box[data-selected="true"] .rotate {
+  opacity: 1;
+}
+.box[data-selected="true"] {
+  border-color: #fff;
+  box-shadow: 0 0 0 1px #00000059;
+}
+/* The box holds the pointer for the whole gesture, so it shows the gesture's cursor wherever the pointer is. */
+.box[data-mode="size"] {
+  cursor: nwse-resize;
+}
+.box[data-mode="width"] {
+  cursor: ew-resize;
+}
+.box[data-mode="rotate"] {
+  cursor: grabbing;
+}
+/* Small dots, with a larger invisible area so they stay easy to grab on tiny captions. */
+.corner,
+.side,
+.rotate {
+  position: absolute;
+  box-sizing: border-box;
+  width: 7px;
+  height: 7px;
+  border-radius: 0;
+  background: #fff;
+  box-shadow: 0 0 0 1px #00000073;
+  pointer-events: auto;
+  touch-action: none;
+}
+.corner::before,
+.side::before,
+.rotate::before {
+  content: "";
+  position: absolute;
+  inset: -7px;
+}
+/* Shorter grab area, so a side dot never steals a corner on a one-line caption. */
+.side::before {
+  inset: -3px -7px;
+}
+.corner[data-corner="nw"] {
+  top: -4px;
+  left: -4px;
+  cursor: nwse-resize;
+}
+.corner[data-corner="ne"] {
+  top: -4px;
+  right: -4px;
+  cursor: nesw-resize;
+}
+.corner[data-corner="sw"] {
+  bottom: -4px;
+  left: -4px;
+  cursor: nesw-resize;
+}
+.corner[data-corner="se"] {
+  right: -4px;
+  bottom: -4px;
+  cursor: nwse-resize;
+}
+.side {
+  top: 50%;
+  margin-top: -3.5px;
+  cursor: ew-resize;
+}
+.side[data-side="-1"] {
+  left: -4px;
+}
+.side[data-side="1"] {
+  right: -4px;
+}
+.rotate {
+  top: -22px;
+  left: 50%;
+  margin-left: -3.5px;
+  cursor: grab;
+}
+.rotate::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 1px;
+  height: 15px;
+  background: #fff;
+}
+.rotate:active {
+  cursor: grabbing;
+}
+.readout {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  padding: 3px 7px;
+  border-radius: var(--radius-xs);
+  background: #101218e6;
+  color: #fff;
+  font: 600 11px Inter, sans-serif;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+/* A guide the caption snapped to: bright, with a dark edge so it reads on any video. */
+.lineX,
+.lineY {
+  position: absolute;
+  background: var(--accent-lime, #d6ff3f);
+  box-shadow: 0 0 0 0.5px #0000008c;
+  pointer-events: none;
+  z-index: 1;
+}
+.lineX {
+  top: 0;
+  bottom: 0;
+  width: 1px;
+}
+.lineY {
+  left: 0;
+  right: 0;
+  height: 1px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .box {
+    transition: none;
+  }
+}
+
+.helperX,
+.helperY {
+  position: absolute;
+  pointer-events: none;
+}
+.helperX {
+  top: 0;
+  bottom: 0;
+  border-left: 1px dashed #ffffff73;
+}
+.helperY {
+  left: 0;
+  right: 0;
+  border-top: 1px dashed #ffffff73;
+}
+
+/* The recommended caption height for the current shape. */
+.helperY[data-best] {
+  border-top: 1px dashed var(--accent-lime, #d6ff3f);
+  opacity: 0.85;
+}
+.helperLabel {
+  position: absolute;
+  right: 6px;
+  bottom: 3px;
+  padding: 1px 5px;
+  background: #101218d9;
+  color: var(--accent-lime, #d6ff3f);
+  font: 600 9px Inter, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}

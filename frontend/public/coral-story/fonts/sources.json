@@ -1,0 +1,25 @@
+{
+  "commit": "47d54ca1ebb14fd864695f1d39dc734f39017c33",
+  "files": [
+    {
+      "path": "public/coral-story/fonts/intertight/InterTight[wght].ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/intertight/InterTight%5Bwght%5D.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "b81b73dcb64df3c230cabade7df6c5773bf863233f24c9ee51087519f1f88b6f"
+    },
+    {
+      "path": "public/coral-story/fonts/intertight/OFL.txt",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/intertight/OFL.txt?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "50240ab035cf1b6b3307940235481d515c4b6de3ab1fa843dbe59e7892cb9d58"
+    },
+    {
+      "path": "public/coral-story/fonts/notosansdevanagari/NotoSansDevanagari[wdth,wght].ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/notosansdevanagari/NotoSansDevanagari%5Bwdth%2Cwght%5D.ttf?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "14ec4af41f27482216d1c2229f417ff9b1425e1babb014e57d1d40d03229853e"
+    },
+    {
+      "path": "public/coral-story/fonts/notosansdevanagari/OFL.txt",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/notosansdevanagari/OFL.txt?ref=47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331"
+    }
+  ]
+}

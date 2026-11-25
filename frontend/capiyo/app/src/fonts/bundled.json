@@ -1,0 +1,380 @@
+[
+  {
+    "id": "Inter",
+    "family": "Inter",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "cyrillic",
+      "cyrillic-ext",
+      "greek",
+      "greek-ext",
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "files": {
+      "regular": "/fonts/inter/2a5436425734.woff2",
+      "italic": "/fonts/inter/58c061410da4.woff2"
+    },
+    "weights": [
+      100,
+      900
+    ],
+    "previewSrc": "/fonts/inter/4841bf78ab86.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Roboto",
+    "family": "Roboto",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "cyrillic",
+      "cyrillic-ext",
+      "greek",
+      "greek-ext",
+      "latin",
+      "latin-ext",
+      "math",
+      "symbols",
+      "vietnamese"
+    ],
+    "files": {
+      "regular": "/fonts/roboto/97ee47deb1e3.woff2",
+      "italic": "/fonts/roboto/b7d42ef0e5af.woff2"
+    },
+    "weights": [
+      100,
+      900
+    ],
+    "previewSrc": "/fonts/roboto/7a444255109f.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Open Sans",
+    "family": "Open Sans",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "cyrillic",
+      "cyrillic-ext",
+      "greek",
+      "greek-ext",
+      "hebrew",
+      "latin",
+      "latin-ext",
+      "math",
+      "symbols",
+      "vietnamese"
+    ],
+    "files": {
+      "regular": "/fonts/open-sans/53cb357adb85.woff2",
+      "italic": "/fonts/open-sans/599af974d303.woff2"
+    },
+    "weights": [
+      300,
+      800
+    ],
+    "previewSrc": "/fonts/open-sans/7164d71c38c2.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Montserrat",
+    "family": "Montserrat",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "cyrillic",
+      "cyrillic-ext",
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "files": {
+      "regular": "/fonts/montserrat/0c196be4183e.woff2",
+      "italic": "/fonts/montserrat/8a16062dc0a8.woff2"
+    },
+    "weights": [
+      100,
+      900
+    ],
+    "previewSrc": "/fonts/montserrat/84d3a6a7443c.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Poppins",
+    "family": "Poppins",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "devanagari",
+      "latin",
+      "latin-ext"
+    ],
+    "files": {
+      "100": "/fonts/poppins/6f2360b889e7.woff2",
+      "200": "/fonts/poppins/d6d2c40d5ff5.woff2",
+      "300": "/fonts/poppins/c976ba6a1fbe.woff2",
+      "500": "/fonts/poppins/54cedf5dd757.woff2",
+      "600": "/fonts/poppins/0bcf29d5a91c.woff2",
+      "700": "/fonts/poppins/5bd7a1e006fa.woff2",
+      "800": "/fonts/poppins/7c7fd857ca37.woff2",
+      "900": "/fonts/poppins/55f3b479497a.woff2",
+      "100italic": "/fonts/poppins/224deb1b4baf.woff2",
+      "200italic": "/fonts/poppins/2476e09053fb.woff2",
+      "300italic": "/fonts/poppins/3d2c37c498d7.woff2",
+      "regular": "/fonts/poppins/a2c1dd01db85.woff2",
+      "italic": "/fonts/poppins/84de818712e0.woff2",
+      "500italic": "/fonts/poppins/1806483d2eb7.woff2",
+      "600italic": "/fonts/poppins/7437a1484a8b.woff2",
+      "700italic": "/fonts/poppins/68664c531d11.woff2",
+      "800italic": "/fonts/poppins/367c9bfa8c58.woff2",
+      "900italic": "/fonts/poppins/e60c8f14b216.woff2"
+    },
+    "previewSrc": "/fonts/poppins/39b37a6ec173.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Plus Jakarta Sans",
+    "family": "Plus Jakarta Sans",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "cyrillic-ext",
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "files": {
+      "regular": "/fonts/plus-jakarta-sans/c7697ed5add6.woff2",
+      "italic": "/fonts/plus-jakarta-sans/5de8909ddd9f.woff2"
+    },
+    "weights": [
+      200,
+      800
+    ],
+    "previewSrc": "/fonts/plus-jakarta-sans/8eee5bddfac4.woff2",
+    "fallback": false
+  },
+  {
+    "id": "DM Sans",
+    "family": "DM Sans",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "files": {
+      "regular": "/fonts/dm-sans/daf261ebcfd8.woff2",
+      "italic": "/fonts/dm-sans/7752dd5eacd3.woff2"
+    },
+    "weights": [
+      100,
+      1000
+    ],
+    "previewSrc": "/fonts/dm-sans/aa54108fe352.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Oswald",
+    "family": "Oswald",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "cyrillic",
+      "cyrillic-ext",
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "files": {
+      "regular": "/fonts/oswald/688388bf12ec.woff2"
+    },
+    "weights": [
+      200,
+      700
+    ],
+    "previewSrc": "/fonts/oswald/1ac42eb3c6e8.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Roboto Condensed",
+    "family": "Roboto Condensed",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "cyrillic",
+      "cyrillic-ext",
+      "greek",
+      "greek-ext",
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "files": {
+      "regular": "/fonts/roboto-condensed/39011bc4c864.woff2",
+      "italic": "/fonts/roboto-condensed/4b225940a4e1.woff2"
+    },
+    "weights": [
+      100,
+      900
+    ],
+    "previewSrc": "/fonts/roboto-condensed/0974e918c4a6.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Archivo Black",
+    "family": "Archivo Black",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "files": {
+      "regular": "/fonts/archivo-black/6a41b32550f9.woff2"
+    },
+    "previewSrc": "/fonts/archivo-black/13be07dad372.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Anton",
+    "family": "Anton",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "files": {
+      "regular": "/fonts/anton/425b348f71e2.woff2"
+    },
+    "previewSrc": "/fonts/anton/a0673635106d.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Bebas Neue",
+    "family": "Bebas Neue",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "files": {
+      "regular": "/fonts/bebas-neue/f4537f75b0d0.woff2"
+    },
+    "previewSrc": "/fonts/bebas-neue/b31482c0783a.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Playfair Display",
+    "family": "Playfair Display",
+    "source": "local",
+    "category": "serif",
+    "subsets": [
+      "cyrillic",
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "files": {
+      "regular": "/fonts/playfair-display/9f2c1b41ccca.woff2",
+      "italic": "/fonts/playfair-display/8d96576e99df.woff2"
+    },
+    "weights": [
+      400,
+      900
+    ],
+    "previewSrc": "/fonts/playfair-display/b891821624fc.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Caveat",
+    "family": "Caveat",
+    "source": "local",
+    "category": "handwriting",
+    "subsets": [
+      "cyrillic",
+      "cyrillic-ext",
+      "latin",
+      "latin-ext"
+    ],
+    "files": {
+      "regular": "/fonts/caveat/7b08cbc6aafb.woff2"
+    },
+    "weights": [
+      400,
+      700
+    ],
+    "previewSrc": "/fonts/caveat/6bced0284c38.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Roboto Mono",
+    "family": "Roboto Mono",
+    "source": "local",
+    "category": "monospace",
+    "subsets": [
+      "cyrillic",
+      "cyrillic-ext",
+      "greek",
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "files": {
+      "regular": "/fonts/roboto-mono/dc5bf5b39819.woff2",
+      "italic": "/fonts/roboto-mono/a8271c87a694.woff2"
+    },
+    "weights": [
+      100,
+      700
+    ],
+    "previewSrc": "/fonts/roboto-mono/5948904c239f.woff2",
+    "fallback": false
+  },
+  {
+    "id": "Noto Sans Devanagari",
+    "family": "Noto Sans Devanagari",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "devanagari",
+      "latin",
+      "latin-ext"
+    ],
+    "files": {
+      "regular": "/fonts/noto-sans-devanagari/e7c75018ff68.woff2"
+    },
+    "weights": [
+      100,
+      900
+    ],
+    "previewSrc": "/fonts/noto-sans-devanagari/2d53d804dd5d.woff2",
+    "fallback": true
+  },
+  {
+    "id": "Noto Sans Kannada",
+    "family": "Noto Sans Kannada",
+    "source": "local",
+    "category": "sans-serif",
+    "subsets": [
+      "kannada",
+      "latin",
+      "latin-ext"
+    ],
+    "files": {
+      "regular": "/fonts/noto-sans-kannada/79bacc99e603.woff2"
+    },
+    "weights": [
+      100,
+      900
+    ],
+    "previewSrc": "/fonts/noto-sans-kannada/e3eb079b0ba7.woff2",
+    "fallback": true
+  }
+]

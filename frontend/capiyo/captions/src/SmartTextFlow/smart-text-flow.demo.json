@@ -1,0 +1,192 @@
+{
+  "background": {
+    "src": "why_not_you_hq.mp4",
+    "muted": true,
+    "volume": 0
+  },
+  "cues": [
+    {
+      "startMs": 240,
+      "endMs": 2900,
+      "segments": [
+        {
+          "type": "text",
+          "value": "Make"
+        },
+        {
+          "type": "text",
+          "value": "small steps",
+          "style": "bold",
+          "emphasis": "marker"
+        },
+        {
+          "type": "text",
+          "value": "every single day."
+        }
+      ]
+    },
+    {
+      "endMs": 6100,
+      "segments": [
+        {
+          "type": "text",
+          "value": "Build"
+        },
+        {
+          "type": "text",
+          "value": "real confidence",
+          "style": "italic-serif",
+          "emphasis": "underline"
+        },
+        {
+          "type": "text",
+          "value": "through action."
+        }
+      ]
+    },
+    {
+      "endMs": 10100,
+      "segments": [
+        {
+          "type": "text",
+          "value": "A historic valuation"
+        },
+        {
+          "type": "number",
+          "value": 20,
+          "prefix": "₹",
+          "suffix": " Lakh Cr",
+          "display": "hero"
+        },
+        {
+          "type": "text",
+          "value": "built over time",
+          "style": "cursive"
+        }
+      ]
+    },
+    {
+      "endMs": 14300,
+      "segments": [
+        {
+          "type": "text",
+          "value": "Now reaching"
+        },
+        {
+          "type": "number",
+          "value": 1250000,
+          "format": "compact",
+          "decimals": 2,
+          "display": "hero"
+        },
+        {
+          "type": "text",
+          "value": "one person at a time",
+          "style": "cursive"
+        }
+      ]
+    },
+    {
+      "endMs": 18200,
+      "segments": [
+        {
+          "type": "text",
+          "value": "A focused"
+        },
+        {
+          "type": "number",
+          "value": 72.5,
+          "format": "percentage",
+          "decimals": 1,
+          "display": "hero"
+        },
+        {
+          "type": "text",
+          "value": "improvement in output",
+          "style": "cursive"
+        }
+      ]
+    },
+    {
+      "endMs": 21600,
+      "segments": [
+        {
+          "type": "text",
+          "value": "Protect your"
+        },
+        {
+          "type": "text",
+          "value": "attention",
+          "style": "bold",
+          "emphasis": "box"
+        },
+        {
+          "type": "text",
+          "value": "for work that matters."
+        }
+      ]
+    },
+    {
+      "endMs": 25300,
+      "segments": [
+        {
+          "type": "text",
+          "value": "We crossed"
+        },
+        {
+          "type": "number",
+          "value": 125000,
+          "format": "comma",
+          "display": "hero"
+        },
+        {
+          "type": "text",
+          "value": "through steady effort",
+          "style": "cursive"
+        }
+      ]
+    },
+    {
+      "endMs": 28600,
+      "segments": [
+        {
+          "type": "text",
+          "value": "Less noise,"
+        },
+        {
+          "type": "text",
+          "value": "more"
+        },
+        {
+          "type": "text",
+          "value": "meaning.",
+          "style": "cursive",
+          "emphasis": "textColor"
+        }
+      ]
+    },
+    {
+      "endMs": 32000,
+      "segments": [
+        { "type": "text", "value": "Make room for" },
+        { "type": "text", "value": "big ideas.", "style": "italic-serif", "emphasis": "circle" }
+      ]
+    },
+    {
+      "endMs": 35400,
+      "segments": [
+        { "type": "text", "value": "Keep your" },
+        { "type": "text", "value": "focus", "style": "bold", "emphasis": "bracket" },
+        { "type": "text", "value": "on what matters." }
+      ]
+    },
+    {
+      "endMs": 38800,
+      "segments": [
+        { "type": "text", "value": "Less" },
+        { "type": "text", "value": "noise,", "emphasis": "strike" },
+        { "type": "text", "value": "more meaning.", "style": "italic-serif", "emphasis": "underline" }
+      ]
+    }
+  ]
+}

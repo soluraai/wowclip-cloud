@@ -1,0 +1,33 @@
+{
+  "font": {
+    "family": "Inter",
+    "src": "style-one/fonts/inter-latin-400-normal.woff2",
+    "size": 52,
+    "weight": 400,
+    "italic": false,
+    "color": "#ffffff",
+    "letterSpacing": 0,
+    "wordSpacing": 0,
+    "lineHeight": 1.2,
+    "textCase": "preserve"
+  },
+  "layout": {
+    "positionX": 0.5,
+    "positionY": 0.89,
+    "maxWidth": 0.89,
+    "safeMargin": 0.05,
+    "alignment": "center"
+  },
+  "phrasing": {
+    "maxWords": 6,
+    "maxCharacters": 42,
+    "maxDurationMs": 2800,
+    "maxGapMs": 500,
+    "lingerMs": 120
+  },
+  "content": {
+    "textOverrides": {},
+    "lineBreakAfterWordIds": [],
+    "pageBreakAfterWordIds": []
+  }
+}

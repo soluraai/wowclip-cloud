@@ -1,0 +1,238 @@
+.trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 0;
+  height: 35px;
+  padding: 0 8px 0 10px;
+  border: 1px solid var(--field-border, #38455b);
+  border-radius: 0;
+  background: var(--field-bg, #272f3f);
+  color: #e7e5ed;
+  text-align: left;
+  font:
+    500 11px Inter,
+    sans-serif;
+  transition:
+    background-color 140ms,
+    border-color 140ms;
+}
+.trigger > span:first-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.trigger:hover,
+.trigger[aria-expanded="true"] {
+  background: var(--field-hover, #2d384b);
+  border-color: #5a7197;
+}
+.arrows {
+  color: #aaa0bb;
+  font-size: 14px;
+  line-height: 8px;
+  padding-left: 7px;
+}
+.trigger:focus-visible,
+.popup button:focus-visible {
+  outline: 2px solid #a47af6;
+  outline-offset: 2px;
+}
+.popup {
+  position: fixed;
+  max-height: calc(100dvh - 16px);
+  overflow-y: auto;
+  z-index: 1001;
+  padding: 7px;
+  border: 1px solid #3c4c69;
+  border-radius: 0;
+  background: #242d3d;
+  color-scheme: dark;
+  scrollbar-color: #65738d80 transparent;
+  scrollbar-width: thin;
+  color: #eeeaf5;
+  box-shadow: none;
+  font-family: Inter, sans-serif;
+  animation: reveal 120ms ease-out;
+}
+.search {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  height: 35px;
+  margin-bottom: 5px;
+  padding: 0 9px;
+  border: 1px solid #3e4b61;
+  border-radius: 0;
+  color: #a6a0b1;
+  background: #1e2634;
+}
+.search:focus-within {
+  border-color: #819ecb;
+}
+.search input {
+  width: 100%;
+  min-width: 0;
+  color: #ede9f5;
+  background: transparent;
+  border: 0;
+  font:
+    12px Inter,
+    sans-serif;
+  outline: none;
+}
+.list {
+  position: relative;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #65738d80 transparent;
+  outline: none;
+}
+.popup::-webkit-scrollbar,
+.list::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+}
+.popup::-webkit-scrollbar-track,
+.list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.popup::-webkit-scrollbar-thumb,
+.list::-webkit-scrollbar-thumb {
+  background: #65738d80;
+  border-radius: 0;
+}
+.popup::-webkit-scrollbar-button,
+.list::-webkit-scrollbar-button {
+  display: none;
+}
+.group {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 9px;
+  color: #938c9f;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+.fontRow {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  height: 36px;
+  padding: 0 9px;
+  border: 0;
+  border-radius: 0;
+  color: #e0dce8;
+  background: transparent;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+}
+.fontRow > span:nth-child(2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* A few letters of the captions' script, drawn in the font. */
+.sample {
+  flex: none;
+  color: #b9b2c8;
+  font-size: 15px;
+  white-space: nowrap;
+}
+/* Which language's letters the font draws. */
+.language {
+  flex: none;
+  margin-left: auto;
+  padding: 1px 5px;
+  border: 1px solid #5b5470;
+  border-radius: 4px;
+  color: #cfc8dc;
+  font:
+    500 10px Inter,
+    sans-serif;
+  letter-spacing: 0.02em;
+}
+.language[data-latin="true"] {
+  color: #8f879f;
+  border-color: #3f3a4d;
+}
+.fontRow:hover,
+.fontRow[data-active="true"] {
+  background: #354967;
+  color: #fff;
+}
+.check {
+  width: 13px;
+  flex: none;
+  font:
+    12px Inter,
+    sans-serif;
+  color: #aecbfb;
+}
+.upload {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  height: 36px;
+  margin-top: 6px;
+  padding: 0 9px;
+  border: 0;
+  border-top: 1px solid #3b3642;
+  background: transparent;
+  color: #b5cef4;
+  text-align: left;
+  font:
+    500 11px Inter,
+    sans-serif;
+  cursor: pointer;
+}
+.upload:hover {
+  background: #303e55;
+}
+.upload:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+.upload span {
+  margin-left: auto;
+  font-size: 9px;
+  color: #92899f;
+}
+.empty,
+.error {
+  padding: 12px 9px;
+  color: #a8a0b5;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.error {
+  color: #f0acb5;
+  margin: 0;
+  padding: 5px 9px;
+}
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .popup {
+    animation: none;
+  }
+  .trigger {
+    transition: none;
+  }
+}

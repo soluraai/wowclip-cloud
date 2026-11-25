@@ -1,0 +1,48 @@
+{
+  "durationMs": 25500,
+  "background": { "src": "why_not_you_hq.mp4", "muted": true, "volume": 0 },
+  "cues": [
+    { "startMs": 180, "endMs": 2800, "segments": [
+      { "type": "text", "value": "It's the most" },
+      { "type": "text", "value": "powerful", "style": "italic-serif" },
+      { "type": "text", "value": "tool you have." }
+    ] },
+    { "startMs": 3250, "endMs": 5600, "segments": [
+      { "type": "text", "value": "actually has a" },
+      { "type": "text", "value": "negative", "style": "italic-serif" },
+      { "type": "text", "value": "impact" }
+    ] },
+    { "startMs": 6050, "endMs": 8100, "segments": [
+      { "type": "text", "value": "Start with" },
+      { "type": "text", "value": "one thing.", "style": "bold" }
+    ] },
+    { "startMs": 8550, "endMs": 11100, "segments": [
+      { "type": "number", "value": 20 },
+      { "type": "text", "value": "or even a" },
+      { "type": "number", "value": 100 }
+    ] },
+    { "startMs": 11550, "endMs": 14200, "segments": [
+      { "type": "text", "value": "An audience of" },
+      { "type": "number", "value": 125000, "format": "comma", "display": "hero" },
+      { "type": "text", "value": "real people." }
+    ] },
+    { "startMs": 14650, "endMs": 17000, "segments": [
+      { "type": "text", "value": "Turn your" },
+      { "type": "text", "value": "story", "style": "italic-serif" },
+      { "type": "text", "value": "into action." }
+    ] },
+    { "startMs": 17450, "endMs": 20100, "segments": [
+      { "type": "text", "value": "Revenue reached" },
+      { "type": "number", "value": 12500000, "format": "compact", "prefix": "₹", "decimals": 1 },
+      { "type": "text", "value": "this year." }
+    ] },
+    { "startMs": 20550, "endMs": 22800, "segments": [
+      { "type": "text", "value": "Your work needs" },
+      { "type": "text", "value": "meaning", "style": "italic-serif" }
+    ] },
+    { "startMs": 23250, "endMs": 25150, "segments": [
+      { "type": "text", "value": "Create" },
+      { "type": "text", "value": "with intention.", "style": "bold" }
+    ] }
+  ]
+}

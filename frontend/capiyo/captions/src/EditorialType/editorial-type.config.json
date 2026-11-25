@@ -1,0 +1,23 @@
+{
+  "text": "#FFFFFF",
+  "canvas": "#141416",
+  "positionY": 0.73,
+  "maxWidth": 0.78,
+  "fontSize": 43,
+  "helperSize": 36,
+  "heroSize": 154,
+  "numberSize": 154,
+  "rowGap": 4,
+  "maxWords": 7,
+  "maxCharacters": 52,
+  "maxDurationMs": 2600,
+  "wordMs": 250,
+  "holdMs": 300,
+  "entryMs": 170,
+  "exitMs": 85,
+  "shadow": 0.6,
+  "backgroundDim": 0.12,
+  "transparent": false,
+  "alignment": "editorial",
+  "scriptFrequency": 0.6
+}

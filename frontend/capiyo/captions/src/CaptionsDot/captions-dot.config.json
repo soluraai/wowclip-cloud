@@ -1,0 +1,32 @@
+{
+  "style": {
+    "fontFamily": "IntegralCF",
+    "fallbackFont": "Poppins",
+    "fontWeight": 900,
+    "baseFontSize": 78,
+    "letterSpacing": 0,
+    "textColor": "#FFFFFF",
+    "symbolColor": "#E2FB00",
+    "colorSymbols": true,
+    "casing": "uppercase",
+    "maxWidth": 0.89,
+    "bottomPadding": 0.14,
+    "lineHeight": 1.1,
+    "wordSpacing": 0
+  },
+  "animation": {
+    "type": "none",
+    "springStiffness": 260,
+    "springDamping": 16,
+    "scaleFrom": 0.88,
+    "pauseHoldSeconds": 0.35,
+    "fadeFrames": 0
+  },
+  "grouping": {
+    "mode": "single-word",
+    "shortWordMaxLength": 3,
+    "maxGroupWords": 2,
+    "maxGapSeconds": 0.18,
+    "maxDurationSeconds": 1.2
+  }
+}

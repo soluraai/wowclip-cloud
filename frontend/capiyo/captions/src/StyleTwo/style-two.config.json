@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "name": "Style Two \u00b7 Clean Emphasis",
+  "fonts": {
+    "body": {
+      "family": "Instrument Sans",
+      "src": "style-two/fonts/instrument-sans-variable.ttf",
+      "weight": 500,
+      "style": "normal"
+    },
+    "highlight": {
+      "family": "Caveat",
+      "src": "style-one/fonts/caveat-variable.ttf",
+      "weight": 700,
+      "style": "normal"
+    }
+  },
+  "layout": {
+    "fontSize": 88,
+    "minFontSize": 68,
+    "heroScale": 1.75,
+    "positionX": 0.5,
+    "positionY": 0.8,
+    "maxWidth": 0.89,
+    "safeMargin": 0.05,
+    "maxWords": 4,
+    "maxCharacters": 28,
+    "maxDurationMs": 2800,
+    "wordGap": 0.22
+  },
+  "colors": {
+    "text": "#ffffff",
+    "highlight": "#ffffff",
+    "glow": "#ffffff",
+    "backdrop": "#000000",
+    "backdropOpacity": 0
+  },
+  "glow": {
+    "enabled": true,
+    "radius": 10,
+    "opacity": 0.85
+  },
+  "motion": {
+    "entryMs": 220,
+    "fadeMs": 70,
+    "pop": 0.06,
+    "travel": 6,
+    "jiggleDegrees": 0,
+    "exitMs": 80
+  }
+}

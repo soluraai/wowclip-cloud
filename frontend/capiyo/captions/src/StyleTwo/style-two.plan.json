@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "omitWordIds": [],
+  "cues": [
+    {
+      "id": "personal-inline-accent",
+      "mode": "plain",
+      "wordIds": ["w1", "w2", "w3"],
+      "heroWordIds": [],
+      "accentWordIds": ["w2"]
+    },
+    {
+      "id": "emphasis-1-0",
+      "mode": "emphasis",
+      "wordIds": ["w7", "w8", "w9"],
+      "heroWordIds": ["w9"]
+    },
+    {
+      "id": "emphasis-2-0",
+      "mode": "emphasis",
+      "wordIds": ["w10", "w11", "w12", "w13"],
+      "heroWordIds": ["w13"]
+    },
+    {
+      "id": "emphasis-3-0",
+      "mode": "emphasis",
+      "wordIds": ["w14", "w15", "w16", "w17"],
+      "heroWordIds": ["w17"]
+    },
+    {
+      "id": "emphasis-4-1",
+      "mode": "standalone",
+      "wordIds": ["w22"],
+      "heroWordIds": ["w22"]
+    },
+    {
+      "id": "emphasis-5-1",
+      "mode": "standalone",
+      "wordIds": ["w27"],
+      "heroWordIds": ["w27"]
+    },
+    {
+      "id": "emphasis-6-0",
+      "mode": "emphasis",
+      "wordIds": ["w28", "w29", "w30", "w31"],
+      "heroWordIds": ["w30"]
+    },
+    {
+      "id": "emphasis-7-1",
+      "mode": "standalone",
+      "wordIds": ["w36"],
+      "heroWordIds": ["w36"]
+    },
+    {
+      "id": "emphasis-8-1",
+      "mode": "emphasis",
+      "wordIds": ["w41", "w42", "w43"],
+      "heroWordIds": ["w41"]
+    },
+    {
+      "id": "emphasis-9-1",
+      "mode": "emphasis",
+      "wordIds": ["w48", "w49", "w50", "w51"],
+      "heroWordIds": ["w48"]
+    },
+    {
+      "id": "emphasis-10-0",
+      "mode": "emphasis",
+      "wordIds": ["w53", "w54", "w55", "w56"],
+      "heroWordIds": ["w56"]
+    },
+    {
+      "id": "emphasis-11-0",
+      "mode": "emphasis",
+      "wordIds": ["w57", "w58", "w59", "w60"],
+      "heroWordIds": ["w60"]
+    },
+    {
+      "id": "emphasis-12-0",
+      "mode": "emphasis",
+      "wordIds": ["w61", "w62", "w63", "w64"],
+      "heroWordIds": ["w64"]
+    },
+    {
+      "id": "emphasis-13-0",
+      "mode": "emphasis",
+      "wordIds": ["w65", "w66", "w67"],
+      "heroWordIds": ["w67"]
+    },
+    {
+      "id": "emphasis-14-1",
+      "mode": "standalone",
+      "wordIds": ["w79"],
+      "heroWordIds": ["w79"]
+    },
+    {
+      "id": "emphasis-15-1",
+      "mode": "emphasis",
+      "wordIds": ["w84", "w85", "w86"],
+      "heroWordIds": ["w84"]
+    },
+    {
+      "id": "emphasis-16-0",
+      "mode": "emphasis",
+      "wordIds": ["w87", "w88", "w89", "w90"],
+      "heroWordIds": ["w90"]
+    },
+    {
+      "id": "emphasis-17-0",
+      "mode": "emphasis",
+      "wordIds": ["w91", "w92", "w93"],
+      "heroWordIds": ["w93"]
+    },
+    {
+      "id": "emphasis-18-0",
+      "mode": "emphasis",
+      "wordIds": ["w108", "w109", "w110", "w111"],
+      "heroWordIds": ["w109"]
+    },
+    {
+      "id": "emphasis-19-0",
+      "mode": "emphasis",
+      "wordIds": ["w112", "w113", "w114"],
+      "heroWordIds": ["w114"]
+    },
+    {
+      "id": "emphasis-20-0",
+      "mode": "emphasis",
+      "wordIds": ["w119", "w120", "w121"],
+      "heroWordIds": ["w121"]
+    }
+  ]
+}

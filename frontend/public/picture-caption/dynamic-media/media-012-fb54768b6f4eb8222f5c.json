@@ -1,0 +1,29 @@
+{
+  "width": 902,
+  "height": 845,
+  "removedBackground": true,
+  "alreadyTransparent": false,
+  "model": "u2netp",
+  "normalizationVersion": "subject-fit-v3",
+  "contentBounds": {
+    "x": 1,
+    "y": 1,
+    "width": 900,
+    "height": 843
+  },
+  "sourceSubjectBounds": [
+    95,
+    89,
+    1208,
+    1131
+  ],
+  "sourceCoreBounds": [
+    98,
+    92,
+    1205,
+    1128
+  ],
+  "sourceWidth": 1300,
+  "sourceHeight": 1326,
+  "removedEffectPixels": 10212
+}

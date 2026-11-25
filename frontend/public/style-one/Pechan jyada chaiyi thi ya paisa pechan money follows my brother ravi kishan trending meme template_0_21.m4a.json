@@ -1,0 +1,394 @@
+{
+  "language_code": null,
+  "segments": [
+    {
+      "text": "\u092a\u0939\u091a\u093e\u0928 \u091c\u094d\u092f\u093e\u0926\u093e \u091a\u093e\u0939\u093f\u090f \u0925\u0940 \u0915\u093f \u092a\u0948\u0938\u093e? ",
+      "start_time": 0.24,
+      "end_time": 1.68,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "\u092a\u0939\u091a\u093e\u0928",
+          "start_time": 0.24,
+          "end_time": 0.6
+        },
+        {
+          "text": " ",
+          "start_time": 0.6,
+          "end_time": 0.66
+        },
+        {
+          "text": "\u091c\u094d\u092f\u093e\u0926\u093e",
+          "start_time": 0.66,
+          "end_time": 0.88
+        },
+        {
+          "text": " ",
+          "start_time": 0.88,
+          "end_time": 0.94
+        },
+        {
+          "text": "\u091a\u093e\u0939\u093f\u090f",
+          "start_time": 0.94,
+          "end_time": 1.14
+        },
+        {
+          "text": " ",
+          "start_time": 1.14,
+          "end_time": 1.18
+        },
+        {
+          "text": "\u0925\u0940",
+          "start_time": 1.18,
+          "end_time": 1.26
+        },
+        {
+          "text": " ",
+          "start_time": 1.26,
+          "end_time": 1.28
+        },
+        {
+          "text": "\u0915\u093f",
+          "start_time": 1.28,
+          "end_time": 1.38
+        },
+        {
+          "text": " ",
+          "start_time": 1.38,
+          "end_time": 1.42
+        },
+        {
+          "text": "\u092a\u0948\u0938\u093e?",
+          "start_time": 1.42,
+          "end_time": 1.68
+        },
+        {
+          "text": " ",
+          "start_time": 1.68,
+          "end_time": 1.68
+        }
+      ]
+    },
+    {
+      "text": "\u092a\u0939\u091a\u093e\u0928\u0964 Money follows my brother. ",
+      "start_time": 1.82,
+      "end_time": 4.64,
+      "speaker": {
+        "id": "speaker_1",
+        "name": "Speaker 1"
+      },
+      "words": [
+        {
+          "text": "\u092a\u0939\u091a\u093e\u0928\u0964",
+          "start_time": 1.82,
+          "end_time": 2.62
+        },
+        {
+          "text": " ",
+          "start_time": 2.62,
+          "end_time": 3.06
+        },
+        {
+          "text": "Money",
+          "start_time": 3.06,
+          "end_time": 3.28
+        },
+        {
+          "text": " ",
+          "start_time": 3.28,
+          "end_time": 3.4
+        },
+        {
+          "text": "follows",
+          "start_time": 3.4,
+          "end_time": 3.8
+        },
+        {
+          "text": " ",
+          "start_time": 3.8,
+          "end_time": 3.88
+        },
+        {
+          "text": "my",
+          "start_time": 3.88,
+          "end_time": 4.019
+        },
+        {
+          "text": " ",
+          "start_time": 4.019,
+          "end_time": 4.1
+        },
+        {
+          "text": "brother.",
+          "start_time": 4.1,
+          "end_time": 4.6
+        },
+        {
+          "text": " ",
+          "start_time": 4.6,
+          "end_time": 4.64
+        }
+      ]
+    },
+    {
+      "text": "Money follows. ",
+      "start_time": 6.94,
+      "end_time": 8.42,
+      "speaker": {
+        "id": "speaker_1",
+        "name": "Speaker 1"
+      },
+      "words": [
+        {
+          "text": "Money",
+          "start_time": 6.94,
+          "end_time": 7.18
+        },
+        {
+          "text": " ",
+          "start_time": 7.18,
+          "end_time": 7.3
+        },
+        {
+          "text": "follows.",
+          "start_time": 7.3,
+          "end_time": 8.06
+        },
+        {
+          "text": " ",
+          "start_time": 8.06,
+          "end_time": 8.42
+        }
+      ]
+    },
+    {
+      "text": "\u0928\u093e\u092e \u092f\u093e \u0926\u093e\u092e? \u0928\u093e\u092e\u0964 \u0926\u093e\u092e \u0924\u094b \u0926\u094c\u0921\u093c \u0915\u0947 \u0906\u090f\u0917\u093e\u0964 \u0928\u093e\u092e \u0915\u094b \u0916\u094b\u091c\u0947\u0917\u093e\u0964 \u0915\u0939\u093e\u0901 \u0939\u0948 \u0924\u0942? \u0928\u093e\u092e\u0964 \u0932\u0921\u093c\u093e\u0908 \u0924\u094b \u0907\u0938\u0940 \u0915\u0940 \u0939\u0948 \u092f\u093e\u0930\u0964",
+      "start_time": 10.26,
+      "end_time": 20.64,
+      "speaker": {
+        "id": "speaker_1",
+        "name": "Speaker 1"
+      },
+      "words": [
+        {
+          "text": "\u0928\u093e\u092e",
+          "start_time": 10.26,
+          "end_time": 10.6
+        },
+        {
+          "text": " ",
+          "start_time": 10.6,
+          "end_time": 10.66
+        },
+        {
+          "text": "\u092f\u093e",
+          "start_time": 10.66,
+          "end_time": 10.78
+        },
+        {
+          "text": " ",
+          "start_time": 10.78,
+          "end_time": 10.92
+        },
+        {
+          "text": "\u0926\u093e\u092e?",
+          "start_time": 10.92,
+          "end_time": 11.28
+        },
+        {
+          "text": " ",
+          "start_time": 11.28,
+          "end_time": 11.48
+        },
+        {
+          "text": "\u0928\u093e\u092e\u0964",
+          "start_time": 11.48,
+          "end_time": 12.38
+        },
+        {
+          "text": " ",
+          "start_time": 12.38,
+          "end_time": 12.44
+        },
+        {
+          "text": "\u0926\u093e\u092e",
+          "start_time": 12.44,
+          "end_time": 12.74
+        },
+        {
+          "text": " ",
+          "start_time": 12.74,
+          "end_time": 12.86
+        },
+        {
+          "text": "\u0924\u094b",
+          "start_time": 12.86,
+          "end_time": 12.96
+        },
+        {
+          "text": " ",
+          "start_time": 12.96,
+          "end_time": 13.16
+        },
+        {
+          "text": "\u0926\u094c\u0921\u093c",
+          "start_time": 13.16,
+          "end_time": 13.44
+        },
+        {
+          "text": " ",
+          "start_time": 13.44,
+          "end_time": 13.54
+        },
+        {
+          "text": "\u0915\u0947",
+          "start_time": 13.54,
+          "end_time": 13.62
+        },
+        {
+          "text": " ",
+          "start_time": 13.62,
+          "end_time": 13.68
+        },
+        {
+          "text": "\u0906\u090f\u0917\u093e\u0964",
+          "start_time": 13.68,
+          "end_time": 14.04
+        },
+        {
+          "text": " ",
+          "start_time": 14.04,
+          "end_time": 14.1
+        },
+        {
+          "text": "\u0928\u093e\u092e",
+          "start_time": 14.1,
+          "end_time": 14.3
+        },
+        {
+          "text": " ",
+          "start_time": 14.3,
+          "end_time": 14.42
+        },
+        {
+          "text": "\u0915\u094b",
+          "start_time": 14.42,
+          "end_time": 14.5
+        },
+        {
+          "text": " ",
+          "start_time": 14.5,
+          "end_time": 14.6
+        },
+        {
+          "text": "\u0916\u094b\u091c\u0947\u0917\u093e\u0964",
+          "start_time": 15.1,
+          "end_time": 16.239
+        },
+        {
+          "text": " ",
+          "start_time": 16.239,
+          "end_time": 16.28
+        },
+        {
+          "text": "\u0915\u0939\u093e\u0901",
+          "start_time": 16.28,
+          "end_time": 16.54
+        },
+        {
+          "text": " ",
+          "start_time": 16.54,
+          "end_time": 16.58
+        },
+        {
+          "text": "\u0939\u0948",
+          "start_time": 16.58,
+          "end_time": 16.68
+        },
+        {
+          "text": " ",
+          "start_time": 16.68,
+          "end_time": 16.8
+        },
+        {
+          "text": "\u0924\u0942?",
+          "start_time": 16.8,
+          "end_time": 16.94
+        },
+        {
+          "text": " ",
+          "start_time": 16.94,
+          "end_time": 16.94
+        },
+        {
+          "text": "\u0928\u093e\u092e\u0964",
+          "start_time": 17.84,
+          "end_time": 18.34
+        },
+        {
+          "text": " ",
+          "start_time": 18.34,
+          "end_time": 19.26
+        },
+        {
+          "text": "\u0932\u0921\u093c\u093e\u0908",
+          "start_time": 19.26,
+          "end_time": 19.62
+        },
+        {
+          "text": " ",
+          "start_time": 19.62,
+          "end_time": 19.66
+        },
+        {
+          "text": "\u0924\u094b",
+          "start_time": 19.66,
+          "end_time": 19.74
+        },
+        {
+          "text": " ",
+          "start_time": 19.74,
+          "end_time": 19.78
+        },
+        {
+          "text": "\u0907\u0938\u0940",
+          "start_time": 19.78,
+          "end_time": 20.0
+        },
+        {
+          "text": " ",
+          "start_time": 20.0,
+          "end_time": 20.1
+        },
+        {
+          "text": "\u0915\u0940",
+          "start_time": 20.1,
+          "end_time": 20.22
+        },
+        {
+          "text": " ",
+          "start_time": 20.22,
+          "end_time": 20.28
+        },
+        {
+          "text": "\u0939\u0948",
+          "start_time": 20.28,
+          "end_time": 20.28
+        },
+        {
+          "text": " ",
+          "start_time": 20.28,
+          "end_time": 20.3
+        },
+        {
+          "text": "\u092f\u093e\u0930\u0964",
+          "start_time": 20.3,
+          "end_time": 20.64
+        }
+      ]
+    }
+  ]
+}

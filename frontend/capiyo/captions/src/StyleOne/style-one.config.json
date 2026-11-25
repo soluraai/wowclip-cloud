@@ -1,0 +1,1392 @@
+{
+  "version": 1,
+  "style": "style-one",
+  "durationMs": 44044,
+  "fonts": {
+    "pairing": "clean"
+  },
+  "background": {
+    "src": "style-one/background.mp4",
+    "muted": false,
+    "volume": 1
+  },
+  "theme": {
+    "textColor": "#ffffff",
+    "heroColor": "#ffffff",
+    "backdropDim": 0.46,
+    "backdropMode": "caption"
+  },
+  "palette": {
+    "mode": "custom",
+    "brandColor": "#68e0cf"
+  },
+  "inlineAccent": {
+    "enabled": true,
+    "sizeMultiplier": 1,
+    "pulse": 0,
+    "jiggle": 0,
+    "durationMs": 420,
+    "glowOpacity": 0,
+    "glowRadius": 0
+  },
+  "shine": {
+    "enabled": true,
+    "durationMs": 520,
+    "delayMs": 100,
+    "strength": 0.45,
+    "glowOpacity": 0
+  },
+  "glow": {
+    "enabled": false,
+    "radius": 0,
+    "opacity": 0
+  },
+  "shadow": {
+    "enabled": false,
+    "opacity": 0
+  },
+  "layout": {
+    "heroFontSize": 172,
+    "helperRatio": 0.36,
+    "softRatio": 0.36,
+    "plainFontSize": 64,
+    "standaloneFontSize": 148,
+    "minHeroFontSize": 100,
+    "minHelperFontSize": 54,
+    "minPlainFontSize": 52,
+    "helperMinScale": 1,
+    "gap": 0.055,
+    "sideClearance": 0.2,
+    "splitPenalty": 0.15,
+    "overhang": 0.08,
+    "textCase": "lowercase",
+    "maxWidth": 0.84,
+    "positionY": 0.67,
+    "nesting": true,
+    "surrounding": true,
+    "maxHelperFragments": 6
+  },
+  "timing": {
+    "revealMs": 480,
+    "fadeMs": 70,
+    "exitMs": 130,
+    "travel": 0.28,
+    "blur": 9
+  },
+  "motion": {
+    "randomize": true,
+    "helperWordByWord": true
+  },
+  "engine": {
+    "fallback": "plain",
+    "minConfidence": 0.35,
+    "maxGapMs": 500,
+    "maxPlainWords": 3,
+    "maxPlainCharacters": 20,
+    "maxPlainDurationMs": 1800,
+    "lingerMs": 120
+  },
+  "transcript": [
+    {
+      "id": "w0",
+      "text": "And",
+      "startMs": 80,
+      "endMs": 480,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w1",
+      "text": "my",
+      "startMs": 480,
+      "endMs": 720,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w2",
+      "text": "personal",
+      "startMs": 720,
+      "endMs": 1040,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w3",
+      "text": "question",
+      "startMs": 1040,
+      "endMs": 1440,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w4",
+      "text": "to",
+      "startMs": 1440,
+      "endMs": 1600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w5",
+      "text": "you",
+      "startMs": 1600,
+      "endMs": 1760,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w6",
+      "text": "is,",
+      "startMs": 1760,
+      "endMs": 2320,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w7",
+      "text": "why",
+      "startMs": 2320,
+      "endMs": 2880,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w8",
+      "text": "not",
+      "startMs": 3120,
+      "endMs": 3840,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w9",
+      "text": "you?",
+      "startMs": 4080,
+      "endMs": 4720,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w10",
+      "text": "You've",
+      "startMs": 5440,
+      "endMs": 5920,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w11",
+      "text": "got",
+      "startMs": 5920,
+      "endMs": 6160,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w12",
+      "text": "the",
+      "startMs": 6160,
+      "endMs": 6320,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w13",
+      "text": "brains.",
+      "startMs": 6320,
+      "endMs": 7200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w14",
+      "text": "You",
+      "startMs": 7520,
+      "endMs": 7760,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w15",
+      "text": "can",
+      "startMs": 7760,
+      "endMs": 7920,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w16",
+      "text": "make",
+      "startMs": 7920,
+      "endMs": 8240,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w17",
+      "text": "decisions.",
+      "startMs": 8240,
+      "endMs": 9120,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w18",
+      "text": "You",
+      "startMs": 9440,
+      "endMs": 9600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w19",
+      "text": "can",
+      "startMs": 9600,
+      "endMs": 9840,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w20",
+      "text": "study",
+      "startMs": 9840,
+      "endMs": 10160,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w21",
+      "text": "the",
+      "startMs": 10160,
+      "endMs": 10480,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w22",
+      "text": "plan.",
+      "startMs": 10480,
+      "endMs": 11200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w23",
+      "text": "You",
+      "startMs": 11520,
+      "endMs": 11760,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w24",
+      "text": "can",
+      "startMs": 11760,
+      "endMs": 11920,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w25",
+      "text": "change",
+      "startMs": 11920,
+      "endMs": 12240,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w26",
+      "text": "your",
+      "startMs": 12240,
+      "endMs": 12480,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w27",
+      "text": "life.",
+      "startMs": 12480,
+      "endMs": 12880,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w28",
+      "text": "You",
+      "startMs": 13435,
+      "endMs": 13755,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w29",
+      "text": "can",
+      "startMs": 13755,
+      "endMs": 13995,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w30",
+      "text": "grow",
+      "startMs": 13995,
+      "endMs": 14555,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w31",
+      "text": "immensely",
+      "startMs": 14555,
+      "endMs": 15275,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w32",
+      "text": "in",
+      "startMs": 15275,
+      "endMs": 15515,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w33",
+      "text": "the",
+      "startMs": 15515,
+      "endMs": 15595,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w34",
+      "text": "next",
+      "startMs": 15595,
+      "endMs": 15755,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w35",
+      "text": "few",
+      "startMs": 15755,
+      "endMs": 15995,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w36",
+      "text": "years.",
+      "startMs": 15995,
+      "endMs": 16635,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w37",
+      "text": "You",
+      "startMs": 16875,
+      "endMs": 17035,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w38",
+      "text": "can",
+      "startMs": 17035,
+      "endMs": 17195,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w39",
+      "text": "make",
+      "startMs": 17195,
+      "endMs": 17435,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w40",
+      "text": "your",
+      "startMs": 17435,
+      "endMs": 17595,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w41",
+      "text": "dreams",
+      "startMs": 17595,
+      "endMs": 17915,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w42",
+      "text": "come",
+      "startMs": 17915,
+      "endMs": 18155,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w43",
+      "text": "true.",
+      "startMs": 18155,
+      "endMs": 18715,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w44",
+      "text": "You",
+      "startMs": 18875,
+      "endMs": 19115,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w45",
+      "text": "can",
+      "startMs": 19115,
+      "endMs": 19195,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w46",
+      "text": "build",
+      "startMs": 19195,
+      "endMs": 19435,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w47",
+      "text": "a",
+      "startMs": 19435,
+      "endMs": 19595,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w48",
+      "text": "financial",
+      "startMs": 19595,
+      "endMs": 19915,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w49",
+      "text": "wall",
+      "startMs": 19915,
+      "endMs": 20235,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w50",
+      "text": "around",
+      "startMs": 20235,
+      "endMs": 20475,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w51",
+      "text": "your",
+      "startMs": 20475,
+      "endMs": 20715,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w52",
+      "text": "family.",
+      "startMs": 20715,
+      "endMs": 21195,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w53",
+      "text": "Nothing",
+      "startMs": 21195,
+      "endMs": 21515,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w54",
+      "text": "can",
+      "startMs": 21515,
+      "endMs": 21755,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w55",
+      "text": "get",
+      "startMs": 21755,
+      "endMs": 21915,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w56",
+      "text": "through.",
+      "startMs": 21915,
+      "endMs": 22475,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w57",
+      "text": "You",
+      "startMs": 22955,
+      "endMs": 23115,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w58",
+      "text": "can",
+      "startMs": 23115,
+      "endMs": 23275,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w59",
+      "text": "become",
+      "startMs": 23275,
+      "endMs": 23595,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w60",
+      "text": "healthy.",
+      "startMs": 23595,
+      "endMs": 24155,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w61",
+      "text": "You",
+      "startMs": 24155,
+      "endMs": 24235,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w62",
+      "text": "can",
+      "startMs": 24235,
+      "endMs": 24395,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w63",
+      "text": "become",
+      "startMs": 24395,
+      "endMs": 24715,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w64",
+      "text": "powerful.",
+      "startMs": 24715,
+      "endMs": 25435,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w65",
+      "text": "Why",
+      "startMs": 25675,
+      "endMs": 25995,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w66",
+      "text": "not",
+      "startMs": 25995,
+      "endMs": 26155,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w67",
+      "text": "you?",
+      "startMs": 26155,
+      "endMs": 26475,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w68",
+      "text": "And",
+      "startMs": 27320,
+      "endMs": 27640,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w69",
+      "text": "I'm",
+      "startMs": 27640,
+      "endMs": 27880,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w70",
+      "text": "here",
+      "startMs": 27880,
+      "endMs": 28440,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w71",
+      "text": "to",
+      "startMs": 28520,
+      "endMs": 28920,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w72",
+      "text": "say",
+      "startMs": 28920,
+      "endMs": 29160,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w73",
+      "text": "that",
+      "startMs": 29160,
+      "endMs": 29400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w74",
+      "text": "I'm",
+      "startMs": 29400,
+      "endMs": 29640,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w75",
+      "text": "ready",
+      "startMs": 29640,
+      "endMs": 29880,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w76",
+      "text": "to",
+      "startMs": 29880,
+      "endMs": 30040,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w77",
+      "text": "pledge",
+      "startMs": 30040,
+      "endMs": 30360,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w78",
+      "text": "my",
+      "startMs": 30360,
+      "endMs": 30600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w79",
+      "text": "support",
+      "startMs": 30600,
+      "endMs": 31320,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w80",
+      "text": "to",
+      "startMs": 31400,
+      "endMs": 31640,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w81",
+      "text": "make",
+      "startMs": 31640,
+      "endMs": 31880,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w82",
+      "text": "your",
+      "startMs": 31880,
+      "endMs": 32120,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w83",
+      "text": "personal",
+      "startMs": 32120,
+      "endMs": 32520,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w84",
+      "text": "dreams",
+      "startMs": 32520,
+      "endMs": 32840,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w85",
+      "text": "come",
+      "startMs": 32840,
+      "endMs": 33080,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w86",
+      "text": "true.",
+      "startMs": 33080,
+      "endMs": 33720,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w87",
+      "text": "I",
+      "startMs": 33800,
+      "endMs": 33960,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w88",
+      "text": "asked",
+      "startMs": 33960,
+      "endMs": 34200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w89",
+      "text": "the",
+      "startMs": 34200,
+      "endMs": 34360,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w90",
+      "text": "question,",
+      "startMs": 34360,
+      "endMs": 34840,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w91",
+      "text": "why",
+      "startMs": 34840,
+      "endMs": 34920,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w92",
+      "text": "not",
+      "startMs": 34920,
+      "endMs": 35160,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w93",
+      "text": "you?",
+      "startMs": 35160,
+      "endMs": 35720,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w94",
+      "text": "But",
+      "startMs": 35880,
+      "endMs": 36040,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w95",
+      "text": "I'm",
+      "startMs": 36040,
+      "endMs": 36280,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w96",
+      "text": "not",
+      "startMs": 36280,
+      "endMs": 36440,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w97",
+      "text": "gonna",
+      "startMs": 36440,
+      "endMs": 36600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w98",
+      "text": "ask",
+      "startMs": 36600,
+      "endMs": 36840,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w99",
+      "text": "it",
+      "startMs": 36840,
+      "endMs": 37000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w100",
+      "text": "and",
+      "startMs": 37000,
+      "endMs": 37160,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w101",
+      "text": "just",
+      "startMs": 37160,
+      "endMs": 37400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w102",
+      "text": "walk",
+      "startMs": 37400,
+      "endMs": 37640,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w103",
+      "text": "away.",
+      "startMs": 37640,
+      "endMs": 37880,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w104",
+      "text": "I'm",
+      "startMs": 38444,
+      "endMs": 38764,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w105",
+      "text": "gonna",
+      "startMs": 38764,
+      "endMs": 39003,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w106",
+      "text": "ask",
+      "startMs": 39003,
+      "endMs": 39163,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w107",
+      "text": "it",
+      "startMs": 39163,
+      "endMs": 39404,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w108",
+      "text": "and",
+      "startMs": 39404,
+      "endMs": 39563,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w109",
+      "text": "walk",
+      "startMs": 39563,
+      "endMs": 39803,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w110",
+      "text": "with",
+      "startMs": 39803,
+      "endMs": 39963,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w111",
+      "text": "you",
+      "startMs": 39963,
+      "endMs": 40444,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w112",
+      "text": "in",
+      "startMs": 40444,
+      "endMs": 40764,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w113",
+      "text": "this",
+      "startMs": 40764,
+      "endMs": 41003,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w114",
+      "text": "journey",
+      "startMs": 41003,
+      "endMs": 41643,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w115",
+      "text": "as",
+      "startMs": 41643,
+      "endMs": 41963,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w116",
+      "text": "we",
+      "startMs": 41963,
+      "endMs": 42123,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w117",
+      "text": "take",
+      "startMs": 42123,
+      "endMs": 42283,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w118",
+      "text": "Herbalife",
+      "startMs": 42283,
+      "endMs": 42764,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w119",
+      "text": "around",
+      "startMs": 42764,
+      "endMs": 43084,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w120",
+      "text": "the",
+      "startMs": 43084,
+      "endMs": 43243,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "id": "w121",
+      "text": "world.",
+      "startMs": 43243,
+      "endMs": 43563,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "plan": {
+    "version": 1,
+    "omitWordIds": [],
+    "cues": [
+      {
+        "id": "personal-inline-accent",
+        "mode": "plain",
+        "wordIds": ["w1", "w2", "w3"],
+        "heroWordIds": [],
+        "accentWordIds": ["w2"],
+        "nesting": "off",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-1",
+        "mode": "emphasis",
+        "wordIds": [
+          "w7",
+          "w8",
+          "w9"
+        ],
+        "heroWordIds": [
+          "w9"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-2",
+        "mode": "emphasis",
+        "wordIds": [
+          "w10",
+          "w11",
+          "w12",
+          "w13"
+        ],
+        "heroWordIds": [
+          "w13"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-3",
+        "mode": "emphasis",
+        "wordIds": [
+          "w14",
+          "w15",
+          "w16",
+          "w17"
+        ],
+        "heroWordIds": [
+          "w17"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-4",
+        "mode": "emphasis",
+        "wordIds": [
+          "w18",
+          "w19",
+          "w20",
+          "w21",
+          "w22"
+        ],
+        "heroWordIds": [
+          "w22"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-5",
+        "mode": "emphasis",
+        "wordIds": [
+          "w23",
+          "w24",
+          "w25",
+          "w26",
+          "w27"
+        ],
+        "heroWordIds": [
+          "w27"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-6",
+        "mode": "emphasis",
+        "wordIds": [
+          "w28",
+          "w29",
+          "w30",
+          "w31"
+        ],
+        "heroWordIds": [
+          "w30"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-7",
+        "mode": "emphasis",
+        "wordIds": [
+          "w32",
+          "w33",
+          "w34",
+          "w35",
+          "w36"
+        ],
+        "heroWordIds": [
+          "w36"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "below"
+      },
+      {
+        "id": "emphasis-8",
+        "mode": "emphasis",
+        "wordIds": [
+          "w37",
+          "w38",
+          "w39",
+          "w40",
+          "w41",
+          "w42",
+          "w43"
+        ],
+        "heroWordIds": [
+          "w41"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-9",
+        "mode": "emphasis",
+        "wordIds": [
+          "w44",
+          "w45",
+          "w46",
+          "w47",
+          "w48",
+          "w49",
+          "w50",
+          "w51",
+          "w52"
+        ],
+        "heroWordIds": [
+          "w48"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-10",
+        "mode": "emphasis",
+        "wordIds": [
+          "w53",
+          "w54",
+          "w55",
+          "w56"
+        ],
+        "heroWordIds": [
+          "w56"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-11",
+        "mode": "emphasis",
+        "wordIds": [
+          "w57",
+          "w58",
+          "w59",
+          "w60"
+        ],
+        "heroWordIds": [
+          "w60"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-12",
+        "mode": "emphasis",
+        "wordIds": [
+          "w61",
+          "w62",
+          "w63",
+          "w64"
+        ],
+        "heroWordIds": [
+          "w64"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-13",
+        "mode": "emphasis",
+        "wordIds": [
+          "w65",
+          "w66",
+          "w67"
+        ],
+        "heroWordIds": [
+          "w67"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-14",
+        "mode": "emphasis",
+        "wordIds": [
+          "w75",
+          "w76",
+          "w77",
+          "w78",
+          "w79"
+        ],
+        "heroWordIds": [
+          "w79"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-15",
+        "mode": "emphasis",
+        "wordIds": [
+          "w80",
+          "w81",
+          "w82",
+          "w83",
+          "w84",
+          "w85",
+          "w86"
+        ],
+        "heroWordIds": [
+          "w84"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-16",
+        "mode": "emphasis",
+        "wordIds": [
+          "w87",
+          "w88",
+          "w89",
+          "w90"
+        ],
+        "heroWordIds": [
+          "w90"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-17",
+        "mode": "emphasis",
+        "wordIds": [
+          "w91",
+          "w92",
+          "w93"
+        ],
+        "heroWordIds": [
+          "w93"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-18",
+        "mode": "emphasis",
+        "wordIds": [
+          "w108",
+          "w109",
+          "w110",
+          "w111"
+        ],
+        "heroWordIds": [
+          "w109"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-19",
+        "mode": "emphasis",
+        "wordIds": [
+          "w112",
+          "w113",
+          "w114"
+        ],
+        "heroWordIds": [
+          "w114"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      },
+      {
+        "id": "emphasis-20",
+        "mode": "emphasis",
+        "wordIds": [
+          "w119",
+          "w120",
+          "w121"
+        ],
+        "heroWordIds": [
+          "w121"
+        ],
+        "nesting": "auto",
+        "helperPlacement": "natural"
+      }
+    ]
+  }
+}

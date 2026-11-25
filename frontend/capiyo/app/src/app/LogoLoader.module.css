@@ -1,0 +1,69 @@
+.loader {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.fill {
+  position: absolute;
+  inset: 0;
+  display: flex;
+}
+
+.mark {
+  position: relative;
+  display: block;
+  flex: none;
+  animation: breathe 2.4s ease-in-out infinite;
+}
+
+/* The logo itself, dim. */
+.logo,
+.shine {
+  position: absolute;
+  inset: 16%;
+  -webkit-mask: url("/logo.png") center / contain no-repeat;
+  mask: url("/logo.png") center / contain no-repeat;
+}
+.logo { background: #ffffff38; }
+
+/* A band of light sweeping through the logo. */
+.shine {
+  background: linear-gradient(115deg, transparent 30%, #ffffff 48%, #e4ddff 52%, transparent 70%) 0 0 / 300% 100%;
+  animation: sweep 1.8s cubic-bezier(.6, 0, .4, 1) infinite;
+}
+
+/* A thin arc circling the mark, fading at its tail. */
+.orbit {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, transparent 0 55%, #ffffff10 62%, #ffffffd9 96%, transparent 97%);
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 1.5px));
+  mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 1.5px));
+  animation: spin 1.2s linear infinite;
+}
+
+.label {
+  color: #a7adb9;
+  font: 500 12px Inter, sans-serif;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+@keyframes sweep {
+  from { background-position: 100% 0; }
+  to { background-position: 0 0; }
+}
+@keyframes spin {
+  to { transform: rotate(1turn); }
+}
+@keyframes breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(.94); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mark, .orbit { animation: none; }
+  .shine { animation-duration: 3.6s; }
+}

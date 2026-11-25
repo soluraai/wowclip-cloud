@@ -1,0 +1,22 @@
+{
+  "OPENROUTER_API_KEY": "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",
+  "YOUTUBE_API_KEY": "AIzaSyAE0y6_-Fd1Fh-8p2xVg7St-rAtKqmVW74",
+  "GPROXY_USER": "gproxy_1584_lakshdiyorazz",
+  "GPROXY_PASS": "V5te1gkisr2A9tJqnLmJ",
+  "GPROXY_HOST": "proxy.gproxy.net",
+  "GPROXY_PORT": "1000",
+  "CLIPSCUTTER_API_KEY": "96125fbc0f5b95c94fca477b8730b6f9eb9b070099f71cda64ecee188a32b931",
+  "AWS_ACCESS_KEY_ID": "AKIAUCZ5D2C4GOBLSGNM",
+  "AWS_SECRET_ACCESS_KEY": "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",
+  "AWS_REGION": "ap-southeast-2",
+  "MEDIA_BUCKET": "capiyo-media-280911663288",
+  "RENDER_TOOLS_BUCKET": "remotionlambda-apsoutheast2-zovq8ye3lw",
+  "RENDER_SITE_URL": "https://remotionlambda-apsoutheast2-zovq8ye3lw.s3.ap-southeast-2.amazonaws.com/sites/capiyo-app/index.html",
+  "RENDER_PUBLIC_BASE": "https://remotionlambda-apsoutheast2-zovq8ye3lw.s3.ap-southeast-2.amazonaws.com/sites/capiyo-app/public",
+  "RENDER_FUNCTION": "remotion-render-fused-1769",
+  "DEEPGRAM_API_KEY": "94bc55830c104a3149492a7a3f6a58c9bf9412e5",
+  "SCRAPPA_API_KEY": "eyJpdiI6IitCcEIyclQ2SFEyUzdlaTJIRU5MWEE9PSIsInZhbHVlIjoiWGEvZGZlS3VOSUgvRGpObVVtczhFcG1pYTZsd0FWb1FyZTdiYVRMNjEvVloxdlZZM05odEpQWHFjM2ViTkVSWER2QndQT1pnb2FrMEJETkNFbVBzZGc9PSIsIm1hYyI6ImUwZWYxZDM4ODVmYTZlNzI4MzlmYmM2NTMyZTUzZTczNTdkN2ZiOGNmZDZjZGM2MjVlM2UwYzhiOGY3OWJkODgiLCJ0YWciOiIifQ==",
+  "ELEVENLABS_API_KEY": "sk_09c10f421a97b09eea3bc723afd0bf9a8f91d91d4488597c",
+  "MODAL_TOKEN_ID": "ak-Cs8sjnGwxUMnbyVgQBzA8A",
+  "MODAL_TOKEN_SECRET": "as-GngDUdNsF5vIugYq3MrluH"
+}

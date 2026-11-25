@@ -1,0 +1,371 @@
+/* ══════════════════════════════════════════════════════════════
+   Style Library — Premium Dark Cards with Glass Hover
+   ══════════════════════════════════════════════════════════════ */
+
+.library {
+  --sidebar-bg: #111114;
+  --accent-purple: #9D85FF;
+
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--sidebar-bg);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  color: #f0eff5;
+  font-family: var(--font-sans);
+}
+
+/* ── Tier Tabs ── */
+.tabsHeader {
+  flex: none;
+  padding: 14px 14px 12px;
+}
+
+.tabsGroup {
+  position: relative;
+  display: flex;
+  padding: 3px;
+  background: #0B0B0D;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-md);
+}
+
+.tabIndicator {
+  position: absolute;
+  inset: 3px auto 3px 3px;
+  width: calc((100% - 6px) / 3);
+  border-radius: var(--radius-md);
+  background: #ededed;
+  box-shadow: none;
+  transition: translate 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.tabButton {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  min-width: 0;
+  height: 32px;
+  border-radius: var(--radius-md);
+  color: #8a8a8a;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: color 150ms ease;
+}
+
+.tabButton:hover {
+  color: #fff;
+}
+/* The active tab sits on the soft-white slider. */
+.tabActive, .tabActive:hover {
+  color: var(--on-accent);
+}
+
+.tabButton:focus-visible {
+  outline: 1px solid #ededed;
+  outline-offset: 1px;
+}
+
+/* ── Empty State ── */
+.emptyState {
+  display: grid;
+  align-content: center;
+  gap: 8px;
+  min-height: 170px;
+  padding: 24px 12px;
+  color: #b8b4c4;
+  text-align: center;
+  font-size: 12px;
+}
+
+.emptyState p {
+  color: #7a768a;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+/* ── Scrollable List ── */
+.list {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 6px 14px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: #3b3a4a transparent;
+}
+
+/* Each tier stays mounted; inactive ones hide */
+.tier {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
+.tierHidden {
+  display: none;
+}
+
+/* ── Style Card ── */
+.card {
+  box-sizing: border-box;
+  width: 100%;
+  flex: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  background: #17171B;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: none;
+  user-select: none;
+  transition:
+    background 180ms ease,
+    border-color 180ms ease,
+    box-shadow 250ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  color: inherit;
+}
+
+.card:hover {
+  background: #1E1E23;
+  border-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+  will-change: transform;
+}
+
+.card:active {
+  background: #141417;
+  transform: translateY(0);
+}
+
+.selected,
+.selected:hover {
+  border-color: var(--green);
+  box-shadow: 0 0 0 1px var(--green-line), 0 0 18px var(--green-deep)1f;
+}
+
+.card:focus-visible {
+  outline: 1px solid #ededed;
+  outline-offset: 2px;
+}
+
+/* ── Card Name ── */
+.cardName {
+  box-sizing: border-box;
+  position: absolute;
+  left: 6px;
+  bottom: 5px;
+  z-index: 5;
+  display: block;
+  max-width: calc(100% - 12px);
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Inter", sans-serif;
+  font-size: 9.5px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #9c9eb0;
+  line-height: 12px;
+  text-align: left;
+  background: transparent;
+  border-radius: var(--radius-md);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85), 0 0 1px rgba(0, 0, 0, 0.95);
+  pointer-events: none;
+  transition:
+    color 150ms ease,
+    transform 150ms ease;
+}
+
+.card:hover .cardName {
+  color: #ffffff;
+}
+
+.selected .cardName {
+  color: #D6CCFF;
+  font-weight: 600;
+}
+
+/* ── Preview Frame ── */
+.preview {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.preview > * {
+  width: 100%;
+}
+
+.previewFrame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2.1 / 1;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+}
+
+.previewFit {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 160ms ease;
+}
+
+.previewFallback {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #c5c5d2;
+  line-height: 1.35;
+  display: block;
+  text-align: center;
+}
+
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .card, .tabIndicator {
+    transition: none;
+    transform: none !important;
+  }
+}
+
+/* ═══ Tier switch: a clear segmented control, so the four groups read as tabs at a glance. ═══ */
+.tabsHeader {
+  padding: 14px 14px 10px;
+  border-bottom: 1px solid #ffffff08;
+}
+.tabsGroup {
+  padding: 4px;
+  gap: 0;
+  background: #1a1a1f;
+  border: 1px solid #ffffff14;
+  border-radius: var(--radius-md);
+  box-shadow: inset 0 1px 2px #00000066;
+}
+.tabIndicator {
+  inset: 4px auto 4px 4px;
+  width: calc((100% - 8px) / 3);
+  border-radius: var(--radius-sm);
+  background: var(--green);
+  box-shadow: 0 2px 10px var(--green-deep)33, inset 0 -1px 0 #00000026;
+}
+.tabButton {
+  height: 30px;
+  border-radius: var(--radius-sm);
+  color: #9b9ba6;
+  font-size: var(--fs-caption);
+  font-weight: 650;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+.tabButton:hover:not(.tabActive) {
+  color: #f1f1f4;
+  background: #ffffff08;
+}
+.tabActive,
+.tabActive:hover {
+  color: var(--on-green);
+}
+
+/* ── Card names sit on a soft shade, so they read on any preview ── */
+.cardName {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: none;
+  padding: 18px 10px 7px;
+  text-align: left;
+  background: none;
+}
+.cardBase {
+  margin-left: 6px;
+  color: #ffffff80;
+  font-size: var(--fs-micro);
+  font-weight: 500;
+}
+
+/* ── My styles ── */
+.mineHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 2px 0;
+  color: #8f8f9a;
+  font-size: var(--fs-caption);
+  font-weight: 600;
+}
+.mineManage {
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: #e8e8ee;
+  background: #ffffff0d;
+  border: 1px solid #ffffff14;
+  font-size: var(--fs-caption);
+  font-weight: 650;
+  text-decoration: none;
+}
+.mineManage:hover {
+  background: #ffffff18;
+}
+.mineCreate {
+  justify-self: center;
+  margin-top: 6px;
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  color: var(--on-green);
+  background: var(--green);
+  font-size: var(--fs-body);
+  font-weight: 700;
+  text-decoration: none;
+}
+.mineLoading {
+  position: relative;
+  min-height: 200px;
+}
+
+/* My styles gets its own tint, so it reads as a different place from the built-in templates. */
+.tier[data-tier="Mine"] {
+  padding: 10px;
+  border-radius: var(--radius-lg);
+  background: #15172a;
+  border: 1px solid #2a2e52;
+}
+.mineMore {
+  justify-self: center;
+  align-self: center;
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  color: #e8e8ee;
+  background: #ffffff0d;
+  border: 1px solid #ffffff14;
+  font-size: var(--fs-body);
+  font-weight: 650;
+  cursor: pointer;
+}
+.mineMore:hover {
+  background: #ffffff18;
+}

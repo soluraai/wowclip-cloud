@@ -1,0 +1,18 @@
+{
+  "accent": "#F3CA85",
+  "text": "#FFFDF7",
+  "canvas": "#0A0C10",
+  "positionY": 0.735,
+  "maxWidth": 0.8,
+  "fontSize": 43,
+  "maxWords": 8,
+  "maxCharacters": 54,
+  "maxDurationMs": 2900,
+  "maxGapMs": 400,
+  "wordMs": 260,
+  "holdMs": 330,
+  "maxLines": 3,
+  "glow": 0.35,
+  "scrimOpacity": 0.42,
+  "transparent": false
+}

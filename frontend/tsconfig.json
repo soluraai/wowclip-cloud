@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@caption-styles": ["./capiyo/captions/src/player.ts"],
+      "@caption-basic-catalog": ["./capiyo/captions/src/Basic/catalog.ts"],
+      "@caption-basic-demo": ["./capiyo/captions/src/Basic/demo.ts"],
+      "@caption-basic-engine": ["./capiyo/captions/src/BasicCaption/engine.ts"],
+      "@caption-editorial-engine": ["./capiyo/captions/src/EditorialSelect/engine.ts"],
+      "@caption-demo": ["./capiyo/captions/src/BasicCaption/source.ts"],
+      "@caption-font-loader": ["./capiyo/captions/src/BasicCaption/fonts.ts"]
+    },
+    "allowJs": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

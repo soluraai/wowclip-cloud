@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "name": "Style Three · Mumbai",
+  "fonts": {
+    "body": {
+      "family": "Poppins",
+      "src": "style-one/fonts/poppins-latin-800-normal.woff2",
+      "weight": 800,
+      "style": "normal"
+    },
+    "highlight": {
+      "family": "Kaushan Script",
+      "src": "style-three/fonts/kaushan-script-regular.ttf",
+      "weight": 400,
+      "style": "normal"
+    }
+  },
+  "layout": {
+    "fontSize": 96,
+    "scriptScale": 1.0625,
+    "minFontSize": 72,
+    "positionX": 0.44,
+    "positionY": 0.67,
+    "maxWidth": 0.74,
+    "safeMargin": 0.08,
+    "lineGap": 0,
+    "scriptOffsetY": -24,
+    "wordGap": 0.22,
+    "primaryTracking": 2,
+    "scriptTracking": 0.8,
+    "maxWords": 5,
+    "maxCharacters": 38,
+    "maxDurationMs": 2000
+  },
+  "colors": {
+    "script": "#ffffff",
+    "glow": "#faf830",
+    "angle": 0,
+    "gradientLevel": "word",
+    "stops": [
+      { "offset": 0, "color": "#faf830" },
+      { "offset": 0.307, "color": "#faf830" },
+      { "offset": 0.55, "color": "#fff7d6" },
+      { "offset": 0.706, "color": "#faf830" },
+      { "offset": 1, "color": "#faf830" }
+    ]
+  },
+  "glow": { "enabled": true, "radius": 12, "opacity": 0.84 },
+  "motion": {
+    "entryMs": 240,
+    "fadeMs": 70,
+    "pop": 0.03,
+    "travel": 0,
+    "jiggleDegrees": 0,
+    "exitMs": 90,
+    "blur": 1.4,
+    "shineMs": 440,
+    "shineOpacity": 0.42
+  }
+}

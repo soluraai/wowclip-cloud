@@ -1,0 +1,138 @@
+{
+  "fonts": {
+    "sans": {
+      "family": "Coolvetica",
+      "weight": 400,
+      "style": "normal",
+      "src": "reference-stack/Coolvetica-Regular.otf"
+    },
+    "serif": {
+      "family": "Idealist Serif",
+      "weight": 400,
+      "style": "normal",
+      "src": "reference-stack/Idealist-Regular.otf"
+    },
+    "italic": {
+      "family": "Coolvetica",
+      "weight": 400,
+      "style": "italic",
+      "src": "reference-stack/Coolvetica-Italic.otf"
+    }
+  },
+  "roles": {
+    "body": {
+      "font": "sans",
+      "size": 58,
+      "tracking": -0.012
+    },
+    "serif": {
+      "font": "serif",
+      "size": 73,
+      "tracking": -0.018,
+      "widthScale": 1
+    },
+    "italic": {
+      "font": "italic",
+      "size": 68,
+      "tracking": -0.018
+    },
+    "hero": {
+      "font": "sans",
+      "size": 74,
+      "tracking": -0.018
+    },
+    "label": {
+      "font": "sans",
+      "size": 52,
+      "tracking": -0.012
+    },
+    "strong": {
+      "font": "sans",
+      "size": 63,
+      "tracking": -0.018
+    }
+  },
+  "layout": {
+    "positionX": 0.5,
+    "baselineY": 0.86,
+    "maxWidth": 0.89,
+    "safeMargin": 0.05,
+    "lineStep": 38,
+    "overlapFactor": 0.9,
+    "heightScale": 1.28
+  },
+  "phrasing": {
+    "maxWords": 7,
+    "maxDurationMs": 2800,
+    "maxGapMs": 500,
+    "lingerMs": 90
+  },
+  "motion": {
+    "entryMs": 330,
+    "letterStaggerMs": 35,
+    "rise": 16,
+    "blur": 8,
+    "variation": 0.12,
+    "scaleFrom": 0.985,
+    "exitMs": 180,
+    "settleScale": 1,
+    "settleMs": 1200,
+    "settleLift": 0,
+    "initialWordsVisible": true
+  },
+  "depth": {
+    "enabled": true,
+    "frequency": 1,
+    "overlap": 0.18,
+    "perspective": 1100,
+    "recedeMs": 680,
+    "recedeZ": 150,
+    "tilt": 6,
+    "restBlur": 0.7,
+    "liftPx": 16,
+    "pushPx": 3,
+    "arriveZ": 170,
+    "risePx": 14,
+    "arrivalBlur": 3,
+    "shadowBlurPx": 9,
+    "shadowRisePx": 6,
+    "shadowOpacity": 0.92,
+    "shadowLightOpacity": 0.07
+  },
+  "focus": {
+    "enabled": true,
+    "previousLineOpacity": 1,
+    "handoffDelayMs": 80,
+    "transitionMs": 500,
+    "arrivalGlowMs": 800,
+    "arrivalGlowOpacity": 0.2
+  },
+  "color": "#ffffff",
+  "glow": {
+    "enabled": true,
+    "color": "#ffffff",
+    "radius": 6,
+    "opacity": 0.32,
+    "roles": {
+      "body": 0,
+      "serif": 0.85,
+      "italic": 1,
+      "hero": 0,
+      "label": 0,
+      "strong": 0
+    }
+  },
+  "background": {
+    "dim": 0,
+    "objectFit": "cover",
+    "scrim": {
+      "enabled": true,
+      "opacity": 0.7
+    }
+  },
+  "ink": {
+    "top": "#ffffff",
+    "middle": "#ffffff",
+    "bottom": "#ffffff"
+  }
+}

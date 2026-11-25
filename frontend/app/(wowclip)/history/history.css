@@ -1,0 +1,51 @@
+/* Render history: where the reels live in S3, then every saved reel. */
+
+.history-page {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 14px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.history-page .topbar a.ghost-button { align-self: center; text-decoration: none; }
+
+/* ── Storage box ──────────────────────────────────────────────────── */
+.storage { display: flex; flex-direction: column; gap: 12px; padding: 14px 16px; background: var(--panel); border: 1px solid var(--line); }
+.storage-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.storage-head .ghost-button { text-decoration: none; }
+.storage-path { margin: 0; color: var(--text-secondary); font-family: var(--font-mono); font-size: 0.85rem; word-break: break-all; }
+.storage-path strong { color: #ffffff; font-weight: 500; }
+.storage-region { margin: 2px 0 0; color: var(--text-muted); font-size: 0.74rem; }
+
+.storage-folders { display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.storage-folders li { display: flex; align-items: center; gap: 8px; color: var(--text-muted); font-size: 0.8rem; }
+.storage-folders code { min-width: 64px; color: var(--text); font-family: var(--font-mono); font-size: 0.78rem; }
+
+.storage-cli { display: flex; align-items: center; gap: 8px; padding: 6px 6px 6px 10px; background: var(--field); border: 1px solid var(--line); }
+.storage-cli code { flex: 1; min-width: 0; overflow-x: auto; color: var(--text-secondary); font-family: var(--font-mono); font-size: 0.76rem; white-space: nowrap; scrollbar-width: none; }
+.storage-cli .ghost-button { align-self: center; }
+
+.storage-note { margin: 0; color: var(--text-muted); font-size: 0.76rem; line-height: 1.5; }
+
+/* ── Reels ────────────────────────────────────────────────────────── */
+.history-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+.history-card { display: flex; flex-direction: column; background: var(--panel); border: 1px solid var(--line); }
+.history-video { display: block; width: 100%; aspect-ratio: 9 / 16; background: #000000; object-fit: cover; }
+
+.history-info { display: flex; flex-direction: column; gap: 6px; padding: 10px 12px 12px; }
+.history-date { margin: 0; color: var(--text-muted); font-family: var(--font-mono); font-size: 0.7rem; }
+.history-info h3 { margin: 0; font-size: 0.92rem; font-weight: 600; line-height: 1.3; }
+.history-source { margin: 0; overflow: hidden; color: var(--text-muted); font-size: 0.76rem; white-space: nowrap; text-overflow: ellipsis; }
+
+.history-facts { display: flex; flex-direction: column; gap: 3px; margin: 4px 0 2px; }
+.history-facts div { display: flex; justify-content: space-between; gap: 8px; font-size: 0.76rem; }
+.history-facts dt { color: var(--text-muted); }
+.history-facts dd { margin: 0; color: var(--text-secondary); text-align: right; }
+
+.history-actions { display: flex; gap: 6px; margin-top: 4px; }
+.history-actions > * { min-width: 0; }
+.history-actions .cta { flex: 1; padding: 0 10px; text-decoration: none; }
+.history-actions .ghost-button { flex-shrink: 0; align-self: auto; padding: 0 8px; text-decoration: none; }
+
+.history-empty { display: flex; align-items: center; gap: 10px; margin: 0; padding: 24px 0; color: var(--text-muted); font-size: 0.88rem; }

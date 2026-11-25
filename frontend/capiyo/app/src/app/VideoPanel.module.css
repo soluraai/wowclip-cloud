@@ -1,0 +1,116 @@
+.row {
+  display: flex;
+  gap: 6px;
+}
+.button,
+.primary {
+  flex: 1;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid #ffffff14;
+  background: #ffffff08;
+  color: #dfe4ec;
+}
+.button:hover { border-color: #ffffff30; }
+.button[aria-pressed="true"] { border-color: var(--accent-lime, #d6ff3f); color: var(--accent-lime, #d6ff3f); }
+.primary {
+  background: var(--accent-lime, #d6ff3f);
+  border-color: transparent;
+  color: var(--on-accent, #101114);
+}
+.primary:hover { filter: brightness(1.06); }
+
+.hint {
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.45;
+  color: #8b93a3;
+}
+.total {
+  margin: 0;
+  font-size: 11px;
+  color: #8b93a3;
+}
+.total b { color: #e8edf5; font-weight: 600; }
+
+.scenes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 4px;
+}
+.scenes li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 4px 4px 0;
+  border-radius: 4px;
+  background: #ffffff06;
+  border: 1px solid #ffffff0d;
+}
+.scenes li[data-removed="true"] { opacity: 0.55; }
+.scenes li[data-removed="true"] .sceneTime span { text-decoration: line-through; }
+.sceneTime {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 4px 8px;
+  text-align: left;
+  color: #dfe4ec;
+  background: transparent;
+}
+.sceneTime b { font-size: 12px; font-weight: 600; }
+.sceneTime span { font-size: 11px; color: #8b93a3; font-variant-numeric: tabular-nums; }
+.icon {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 3px;
+  color: #a7afbd;
+  background: transparent;
+}
+.icon:hover { background: #ffffff10; color: #fff; }
+.keep {
+  height: 26px;
+  padding: 0 10px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #ff8a8a;
+  background: #ff5a5a14;
+}
+.keep[aria-pressed="false"] { color: var(--accent-lime, #d6ff3f); background: #d6ff3f14; }
+
+/* The video tab: one page of groups, each a title, a short note and its controls in a box. */
+/* `div.page`, not `.page`: the panel's own padding (CaptionSettingsPanel.module.css) can load after this file
+   in the built site and would win over a plain class, leaving the groups with no side margin. */
+div.page { display: flex; flex-direction: column; gap: 22px; padding: 16px 14px 28px; --accent: var(--green); }
+.group { display: flex; flex-direction: column; gap: 10px; }
+.groupHead { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.groupHead h3 { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: #eef1f6; }
+.groupHead p { margin: 3px 0 0; font-size: 11px; color: #7f8797; }
+.groupHead button {
+  flex: none; height: 22px; padding: 0 8px; border: 1px solid #ffffff1a; border-radius: 4px;
+  background: transparent; color: #aab1bf; font-size: 10.5px; font-weight: 600; cursor: pointer;
+}
+.groupHead button:hover { color: #fff; border-color: #ffffff40; }
+.box {
+  display: flex; flex-direction: column; gap: 14px; padding: 14px 12px;
+  border: 1px solid var(--field-border, #ffffff14); border-radius: 4px; background: #ffffff05;
+}
+.toggle { display: flex; flex-direction: column; gap: 12px; }
+.toggle + .toggle { padding-top: 12px; border-top: 1px solid #ffffff0d; }
+.toggleHead { display: flex; align-items: center; justify-content: space-between; color: #dfe4ee; font-size: 12px; font-weight: 600; }
+.toggleBody { display: flex; flex-direction: column; gap: 12px; padding-left: 10px; border-left: 2px solid color-mix(in srgb, var(--accent, #d6ff3f) 45%, transparent); }
+.choice { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.choice > span { color: #aeb5c4; font-size: 11.5px; }
+.segments { display: grid; grid-auto-flow: column; grid-auto-columns: 72px; padding: 3px; gap: 2px; border-radius: 4px; background: #00000030; border: 1px solid #ffffff10; }
+.segments button { height: 26px; border: 0; border-radius: 3px; background: transparent; color: #9aa2b1; font-size: 11.5px; font-weight: 600; cursor: pointer; }
+.segments button:hover { color: #e8edf5; }
+.segments button[aria-pressed="true"] { background: var(--green); color: var(--on-green); }

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "omitWordIds": [],
+  "cues": [
+    {
+      "id": "personal-question",
+      "mode": "plain",
+      "wordIds": ["w0", "w1", "w2", "w3"],
+      "primaryWordCount": 2
+    },
+    {
+      "id": "dreams",
+      "mode": "plain",
+      "wordIds": ["w10", "w11", "w12", "w13"],
+      "primaryWordCount": 2
+    },
+    {
+      "id": "decisions",
+      "mode": "plain",
+      "wordIds": ["w14", "w15", "w16", "w17"],
+      "primaryWordCount": 2
+    },
+    {
+      "id": "financial",
+      "mode": "plain",
+      "wordIds": ["w57", "w58", "w59", "w60"],
+      "primaryWordCount": 2
+    },
+    {
+      "id": "healthy",
+      "mode": "plain",
+      "wordIds": ["w65", "w66", "w67"],
+      "primaryWordCount": 1
+    }
+  ]
+}

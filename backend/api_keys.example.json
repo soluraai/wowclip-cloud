@@ -1,0 +1,22 @@
+{
+  "OPENROUTER_API_KEY": "",
+  "YOUTUBE_API_KEY": "",
+  "GPROXY_USER": "",
+  "GPROXY_PASS": "",
+  "GPROXY_HOST": "",
+  "GPROXY_PORT": "",
+  "CLIPSCUTTER_API_KEY": "",
+  "AWS_ACCESS_KEY_ID": "",
+  "AWS_SECRET_ACCESS_KEY": "",
+  "AWS_REGION": "",
+  "MEDIA_BUCKET": "",
+  "RENDER_TOOLS_BUCKET": "",
+  "RENDER_SITE_URL": "",
+  "RENDER_PUBLIC_BASE": "",
+  "RENDER_FUNCTION": "",
+  "DEEPGRAM_API_KEY": "your-deepgram-key",
+  "SCRAPPA_API_KEY": "your-scrappa-api-key",
+  "ELEVENLABS_API_KEY": "",
+  "MODAL_TOKEN_ID": "",
+  "MODAL_TOKEN_SECRET": ""
+}

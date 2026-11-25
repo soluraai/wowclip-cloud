@@ -1,0 +1,21 @@
+{
+  "colorMode": "palette",
+  "numberLayout": "inline",
+  "palette": ["#67E8F9", "#FBBF77", "#C4B5FD", "#FDA4AF", "#6EE7B7"],
+  "accent": "#67E8F9",
+  "text": "#F8FAFC",
+  "canvas": "#0F172A",
+  "positionY": 0.75,
+  "maxWidth": 0.82,
+  "fontSize": 47,
+  "maxWords": 6,
+  "maxCharacters": 42,
+  "maxDurationMs": 2700,
+  "maxGapMs": 380,
+  "wordMs": 300,
+  "holdMs": 220,
+  "maxLines": 3,
+  "glow": 0.28,
+  "scrimOpacity": 0.48,
+  "transparent": false
+}

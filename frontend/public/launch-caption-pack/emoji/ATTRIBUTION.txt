@@ -1,0 +1,4 @@
+Twemoji graphics by Twitter, Inc. and other contributors, licensed CC BY 4.0.
+Source: https://github.com/jdecked/twemoji
+Pinned revision: b6b55fef1e8636b540a6d016a4729ca8cdf2e60b
+Graphics unchanged.

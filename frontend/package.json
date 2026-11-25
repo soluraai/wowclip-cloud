@@ -1,0 +1,28 @@
+{
+  "name": "wowclip-cloud-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@remotion/google-fonts": "^4.0.535",
+    "@remotion/player": "4.0.535",
+    "fontkit": "^2.0.4",
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-colorful": "^5.8.1",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "^4.0.535",
+    "@types/fontkit": "^2.0.9",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

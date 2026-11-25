@@ -1,0 +1,7 @@
+{
+  "width": 784,
+  "height": 873,
+  "removedBackground": true,
+  "alreadyTransparent": false,
+  "model": "u2net"
+}

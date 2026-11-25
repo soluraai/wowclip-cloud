@@ -1,0 +1,13 @@
+__pycache__
+venv
+*.tmp
+
+# Generated files are not uploaded, except the saved demo video (TjPPIf-M6KE) so the demo works on any laptop.
+# api_keys.json IS uploaded on purpose (private repo): a fresh clone then runs without any login.
+output/*
+!output/demo/
+!output/reels/
+output/reels/*
+!output/reels/TjPPIf-M6KE_*/
+!output/edit_media/
+!output/scrappa_cache/
