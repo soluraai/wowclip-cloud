@@ -27,6 +27,7 @@ Install these four by hand first:
 Then, in two terminals:
 
 ```
+git config --global core.longpaths true
 git clone <this repo's URL>
 cd WowClip-Cloud
 
@@ -58,7 +59,7 @@ Python (`backend/requirements.txt`, tested on Python 3.13):
 | --- | --- | --- |
 | flask | 3.1.3 | the HTTP server |
 | requests | 2.32.5 | calling the APIs |
-| yt-dlp | 2026.8.4.234419 | reading the YouTube page and captions |
+| yt-dlp | 2026.11.23 | reading the YouTube page and captions |
 | boto3 | 1.44.9 | AWS S3 and Lambda |
 | modal | 1.5.4 | speaker crop on a Modal GPU (falls back to this computer) |
 | mediapipe | 0.10.35 | face detection for the 9:16 crop |
